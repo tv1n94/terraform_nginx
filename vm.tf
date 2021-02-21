@@ -3,5 +3,5 @@ resource "ah_cloud_server" "example" {
   datacenter = var.ah_dc
   image      = var.ah_image_type
   product    = var.ah_machine_type
-  ssh_keys   = ["YOUR FINGERPRINT"]
+  ssh_keys   = ["YOUR_FINGERPRINT"]
  }
