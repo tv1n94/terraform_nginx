@@ -8,5 +8,8 @@
 
   - name: "install nginx"
     apt:
-      name: ['nginx']
+      name:
+         - nginx
+         - wget
+         - unzip
       state: latest
